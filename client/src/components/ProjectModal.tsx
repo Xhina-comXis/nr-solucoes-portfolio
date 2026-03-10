@@ -1,5 +1,6 @@
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { X } from "lucide-react";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 interface ProjectModalProps {
   isOpen: boolean;
@@ -17,6 +18,9 @@ export default function ProjectModal({
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-4xl h-[80vh] p-0 border-0 bg-transparent shadow-none">
+        <VisuallyHidden>
+          <DialogTitle>{title}</DialogTitle>
+        </VisuallyHidden>
         <div className="relative w-full h-full rounded-2xl overflow-hidden glass-border">
           {/* Close button */}
           <button
