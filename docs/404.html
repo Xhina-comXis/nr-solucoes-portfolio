@@ -4,8 +4,12 @@
     <meta charset="utf-8">
     <title>Redirecionando...</title>
     <script>
-      sessionStorage.redirect = location.pathname + location.search;
-      location.replace('/nr-solucoes-portfolio/');
+      // Redireciona qualquer rota 404 para o index.html
+      var path = location.pathname;
+      if (!path.endsWith('index.html')) {
+        sessionStorage.redirect = path + location.search;
+        location.replace('/nr-solucoes-portfolio/index.html');
+      }
     </script>
   </head>
   <body>
