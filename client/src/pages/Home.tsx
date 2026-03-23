@@ -46,6 +46,13 @@ const projects: Project[] = [
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663370861592/HCNyKfbGwsBqqhHojzxZW5/petredesign_fullpage_e06fe08b.png",
     description: "Clínica veterinária com 30+ anos de experiência",
   },
+  {
+    id: "novaalianca",
+    title: "Nova Aliança - Transportes",
+    url: "https://www.novaaliancamogi.com.br/",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663370861592/HCNyKfbGwsBqqhHojzxZW5/nova_alianca_mogi_c782c0c3.png",
+    description: "Empresa de transportes com serviços de turismo, escolar e executivo",
+  },
 ];
 
 export default function Home() {
