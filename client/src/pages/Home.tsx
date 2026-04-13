@@ -72,11 +72,11 @@ export default function Home() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                NR Soluções
+              <h1 className="text-3xl font-bold text-white tracking-wider">
+                NORUX
               </h1>
               <p className="text-sm text-muted-foreground mt-1">
-                Desenvolvimento Web Profissional
+                Engenharia de Conversão Digital
               </p>
             </div>
             <div className="flex items-center gap-4">
@@ -84,7 +84,7 @@ export default function Home() {
                 href="https://wa.me/5511922737010"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-lg glass-border text-sm font-medium hover:glow-purple transition-all hover:scale-105"
+                className="flex items-center gap-2 px-4 py-2 rounded-lg glass-border text-sm font-medium hover:glow-purple transition-all hover:scale-105 text-gray-300"
               >
                 <Phone className="w-4 h-4" />
                 WhatsApp
@@ -99,15 +99,15 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <div className="mb-6 inline-block">
-              <span className="px-4 py-2 rounded-full glass-border text-sm font-medium text-cyan-300">
+              <span className="px-4 py-2 rounded-full glass-border text-sm font-medium text-gray-300">
                 Portfólio de Projetos
               </span>
             </div>
 
-            <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+            <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-white">
               Transformando ideias em
-              <span className="block bg-gradient-primary bg-clip-text text-transparent">
-                soluções digitais
+              <span className="block text-gray-400">
+                soluções de conversão
               </span>
             </h2>
 
@@ -121,13 +121,13 @@ export default function Home() {
                 href="https://wa.me/5511922737010"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-3 rounded-lg gradient-primary text-white font-semibold hover:glow-purple-lg transition-all hover:scale-105"
+                className="px-8 py-3 rounded-lg gradient-primary text-black font-semibold hover:glow-purple-lg transition-all hover:scale-105"
               >
                 Solicitar Orçamento
               </a>
               <a
                 href="#projetos"
-                className="px-8 py-3 rounded-lg glass-border font-semibold hover:glow-blue transition-all hover:scale-105"
+                className="px-8 py-3 rounded-lg glass-border font-semibold hover:glow-blue transition-all hover:scale-105 text-gray-300"
               >
                 Ver Projetos
               </a>
@@ -170,19 +170,19 @@ export default function Home() {
                     <p className="text-sm text-gray-200 mb-4">
                       {project.description}
                     </p>
-                    <div className="flex items-center gap-2 text-cyan-300 text-sm font-medium">
+                    <div className="flex items-center gap-2 text-gray-300 text-sm font-medium">
                       <ExternalLink className="w-4 h-4" />
                       Clique para visualizar
                     </div>
                   </div>
 
                   {/* Glow effect */}
-                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none border border-cyan-400/50 rounded-xl" />
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none border border-gray-500/50 rounded-xl" />
                 </div>
 
                 {/* Project info */}
                 <div className="mt-4">
-                  <h4 className="font-semibold text-white group-hover:text-cyan-300 transition-colors">
+                  <h4 className="font-semibold text-white group-hover:text-gray-300 transition-colors">
                     {project.title}
                   </h4>
                   <p className="text-sm text-muted-foreground mt-1">
@@ -256,7 +256,7 @@ export default function Home() {
       <footer className="border-t border-border/50 py-8 glass">
         <div className="container mx-auto px-4 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2026 NR Soluções. Todos os direitos reservados.
+            © 2026 NORUX. Todos os direitos reservados.
           </p>
         </div>
       </footer>
