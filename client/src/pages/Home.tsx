@@ -50,8 +50,29 @@ const projects: Project[] = [
     id: "novaalianca",
     title: "Nova Aliança - Transportes",
     url: "https://www.novaaliancamogi.com.br/",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663370861592/HCNyKfbGwsBqqhHojzxZW5/nova_alianca_mogi_c782c0c3.png",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663370861592/mVgyImPUxvlmKZvr.webp",
     description: "Empresa de transportes com serviços de turismo, escolar e executivo",
+  },
+  {
+    id: "reflexopro",
+    title: "Reflexo PRO - Estética Automotiva",
+    url: "https://reflexo-norux.vercel.app/",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663370861592/xcATlkvAtSiRdRop.webp",
+    description: "Studio premium de detalhamento e proteção de veículos de luxo",
+  },
+  {
+    id: "excellence",
+    title: "Stúdio Excellence - Estética Automotiva",
+    url: "https://excellence-norux.vercel.app/",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663370861592/rvGCpKbddKfhDBkA.webp",
+    description: "Experiência exclusiva em estética automotiva de excelência",
+  },
+  {
+    id: "ironworks",
+    title: "Iron Works - Detailing Automotivo",
+    url: "https://iron-works-norux.vercel.app/",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663370861592/CthssCYlBixFZmwk.webp",
+    description: "Proteção real contra o tempo com brilho de showroom",
   },
 ];
 
